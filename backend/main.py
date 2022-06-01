@@ -1,7 +1,7 @@
 from datetime import date, timedelta
 from importlib import import_module
 
-from backend.metrics import Date
+from backend.models import Date
 from backend.request_handlers.requester import Requester
 
 from backend.settings import URL, HEADER, QUERY, CASES_OF_MODEL_QUERY

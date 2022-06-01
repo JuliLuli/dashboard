@@ -3,7 +3,7 @@ from flask_peewee.auth import BaseUser
 from peewee import SqliteDatabase, Model, \
     CharField, ForeignKeyField, DateField, IntegerField, FloatField, BooleanField, fn
 
-from settings import DB_NAME, ADMIN_DEFAULT_PASSWORD, ADMIN_DEFAULT_EMAIL
+from backend.settings import DB_NAME, ADMIN_DEFAULT_PASSWORD, ADMIN_DEFAULT_EMAIL
 from backend.request_handlers.map_data_requester import MapDataRequester
 
 db = SqliteDatabase(DB_NAME, pragmas={'foreign_keys': 1})
