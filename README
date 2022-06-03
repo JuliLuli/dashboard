@@ -1,3 +1,8 @@
 1. Run 'python3 ./run_backend.py' - get Yandex.Metrica data for the last day
    (change 't.run(delta_days=1)' in run_backend.py if you want to choose a few days).
 2. Run server 'python3 ./app.py'
+
+
+![dashboard_1](https://user-images.githubusercontent.com/104511053/171864633-8cd44340-94fb-4ddf-b851-cd923101385c.png)
+![dashboard_2](https://user-images.githubusercontent.com/104511053/171864653-e59ef3be-41b4-470c-8d6c-b6a03cc9162c.png)
+![dashboard_3](https://user-images.githubusercontent.com/104511053/171864686-aaef6bf9-ee1c-49f5-bef6-df1e22d266d4.png)
